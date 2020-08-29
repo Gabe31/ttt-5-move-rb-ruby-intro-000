@@ -13,4 +13,4 @@ input_to_index(#{user_input[]})
 
 move(board, index, "X")
 
-puts display_board(value)
+puts display_board
