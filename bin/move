@@ -11,6 +11,6 @@ gets.strip(input)
 
 input_to_index(input) = index
 
-move(board, index, "X")
+move(board, index, "X") = updated_board
 
-puts display_board()
+puts display_board(updated_board)
