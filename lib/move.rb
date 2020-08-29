@@ -8,7 +8,8 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-gets.strip = user_input
+def gets.strip(user_input)
+end
 
 def input_to_index (user_input)
   (user_input).to_i - 1
