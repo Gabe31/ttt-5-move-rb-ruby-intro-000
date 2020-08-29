@@ -6,14 +6,11 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-input = gets.strip
+
 
 def input_to_index(input)
-  input.to - 1
+  board[input.to_i - 1]
 end
-
-
-
 
 def move(board, index, value)
   board[index] = value
