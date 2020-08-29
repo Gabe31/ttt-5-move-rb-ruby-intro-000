@@ -10,4 +10,5 @@ index = input_to_index(input)
 
 move(board, index, value = "X")
 
-puts display_board(board)
+
+puts display_board(value)
